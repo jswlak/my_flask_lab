@@ -38,8 +38,8 @@ This is a beginner-level project created using **Flask** and **Jinja2** templati
 
 3. **Activate the virtual environment**
     - Windows
-    ```bash
-    .venv\Scripts\activate
+        ```bash
+        .venv\Scripts\activate
 
     - macOS/Linux
     ```bash 
