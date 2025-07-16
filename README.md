@@ -42,8 +42,8 @@ This is a beginner-level project created using **Flask** and **Jinja2** templati
         .venv\Scripts\activate
 
     - macOS/Linux
-    ```bash 
-    source .venv/bin/activate
+        ```bash 
+        source .venv/bin/activate
 
 
 4. **Install Flask**
