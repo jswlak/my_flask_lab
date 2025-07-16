@@ -6,17 +6,17 @@ This is a beginner-level project created using **Flask** and **Jinja2** templati
 
 ## 📁 Project Structure
 
-my-flask-lab/
-├── app.py # Main Flask app
-├── templates/ # HTML templates (Jinja2)
-│ ├── base.html
-│ ├── index.html
-│ ├── navbar.html
-│ ├── blog.html
-│ └── contact.html
-├── .gitignore # Prevents uploading .venv, cache, etc.
-├── README.md # This file
-└── .venv/ (ignored) # Virtual environment
+    my-flask-lab/
+    ├── app.py # Main Flask app
+    ├── templates/ # HTML templates (Jinja2)
+    │ ├── base.html
+    │ ├── index.html
+    │ ├── navbar.html
+    │ ├── blog.html
+    │ └── contact.html
+    ├── .gitignore # Prevents uploading .venv, cache, etc.
+    ├── README.md # This file
+    └── .venv/ (ignored) # Virtual environment
 
 
 
@@ -26,22 +26,23 @@ my-flask-lab/
 ## 🚀 How to Run This Project
 
 1. **Clone the repository**  
+
    ```bash
    git clone https://github.com/jswlak/my_flask_lab.git
    cd my-flask-lab
 
 2. **Create a virtual environment**
-
-    python -m venv .venv
+   ```bash 
+   python -m venv .venv
 
 
 3. **Activate the virtual environment**
+    - Windows
+    ```bash
+    .venv\Scripts\activate
 
-  Windows
 
-  .venv\Scripts\activate
-
-  macOS/Linux
+  
   source .venv/bin/activate
 
 4. **Install Flask**
