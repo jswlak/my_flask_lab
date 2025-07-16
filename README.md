@@ -41,17 +41,20 @@ This is a beginner-level project created using **Flask** and **Jinja2** templati
     ```bash
     .venv\Scripts\activate
 
+    - macOS/Linux
+    ```bash 
+    source .venv/bin/activate
 
-  
-  source .venv/bin/activate
 
 4. **Install Flask**
+    ```bash 
 
-pip install flask
+    pip install flask
 
 5. **Run Flask app**
+    ```bash 
 
-python app.py
+    python app.py
 
 6. **Open in Browser**
 
