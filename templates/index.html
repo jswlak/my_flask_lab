@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<hr>
+<h2>Welcome to the Home Page</h2>
+<p>This is showing due to index.thml (content area).</p>
+<a href="/contact">Contact</a>
+
+<!-- Playing with varible  -->
+<h1>Welcome {{ name }}!</h1>
+<p>You are {{ age }} years old.</p> 
+
+<!-- playing with loop  -->
+{% if age >= 18 %}
+    <p>You are an adult.</p>
+{% else %}
+    <p>You are a minor.</p>
+{% endif %}
+
+<!-- Playing with Loop -->
+ <ul>
+{% for item in ['Apple', 'Banana', 'Cherry'] %}
+    <li>I love: {{ item }}</li>
+{% endfor %}
+</ul>
+
+<p>
+{% for i in range(1, 11) %}
+    <p>{{ i }}</p>
+{% endfor %}
+</p>
+{# This is a Jinja comment #}
+
+{% endblock %}
+
